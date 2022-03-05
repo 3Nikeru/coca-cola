@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Risque&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fsscroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coca cola</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="cocaCola_logo">
+        </div>
+        <div class="main_menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Main</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div id="menu-bar" class="menu-bar">
+                <div class="all_bar">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+              </div>
+              <div id="mob_menu">
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+              </div>
+        </div>
+    </header>
+    <section class="main section">
+        <div class="main_content">
+            <h1>Main Site Title</h1>
+            <h3>Lorem ipsum descripsum</h3>
+            <button>Call to action</button>
+        </div>
+        <img src="img/snowflake.png" alt="snowflake" id="pin" class="snowflake">
+        <img src="img/SantsClaus.png" alt="Santa Claus" class="santa">
+        <div class="cloud">
+            <p>How how how !!!</br>
+                Like it? </br>
+                Scroll down for more !</p>
+            <img src="img/Cloud.png" alt="text cloud">
+        </div>
+    </section>
+    <section id="trigger" class="content section">
+        <div class="present_block">
+            <div class="chose_present">
+                <h2>At least somewhere you can feel new year atmosphere</h2>
+                <p>Choose your present:</p>
+                <div class="presents">
+                    <div class="present">
+                        <a href="#choosen1">
+                        <img src="img/present1.png" alt="present">
+                    </a>
+                    </div>
+                    <div class="present">
+                        <a href="#choosen2">
+                            <img src="img/present2.png" alt="present">
+                        </a>
+                    </div>
+                    <div class="present">
+                        <a href="#chosen3">
+                            <img src="img/present3.png" alt="present">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="look_present">
+                <div id="choosen1" class="press" style="display: flex;">
+                    <div class="look_txt">
+                        <h3>Best sock ever</h3>
+                        <p>Reuglar sock have no</br>
+                            present inside</br>
+                            Lorem Ipsum is simply dumm  y text of the printing and types etting industry. Lorem 
+                            </p>
+                    </div>
+                    <div class="show">
+                        <img src="img/sock2.png" alt="present">
+                    </div>
+                </div>
+                <div id="choosen2" class="press">
+                    <div class="look_txt">
+                        <h3>Best Hat ever</h3>
+                        <p>Reuglar hat have no</br>
+                            present inside</br>
+                            Lorem Ipsum is simply dumm  y text of the printing and types etting industry. Lorem 
+                            </p>
+                    </div>
+                    <div class="show">
+                        <img src="img/present2.png" alt="present">
+                    </div>
+                </div>
+                <div id="chosen3" class="press">
+                    <div class="look_txt">
+                        <h3>Best bag ever</h3>
+                        <p>Reuglar bag have no</br>
+                            present inside</br>
+                            Lorem Ipsum is simply dumm  y text of the printing and types etting industry. Lorem 
+                            </p>
+                    </div>
+                    <div class="show">
+                        <img src="img/present3.png" alt="present">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form section">
+        <div class="form_block">
+            <h2>Write us </br>
+                for real presents</h2>
+                <form action="#" method="post">
+                    <div class="input_flex">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="tel" name="phone" id="phone" placeholder="Phone">
+                        <select class="select" name="language">
+                            <option disabled>Gender</option>
+                            <option value="boy">Boy</option>
+                            <option value="girl">Girl</option>
+                        </select>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </div>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your Wish"></textarea>
+                    <div class="with_present">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox">Whant Coca-cola with present ?</label>
+                    </div>
+                </form>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/selectize.query.js"></script>
+    <script src="js/snowfall.jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
