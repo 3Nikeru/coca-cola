@@ -654,7 +654,7 @@ input[type=checkbox]:checked + label:before {
 }
 @media screen and (max-width: 570px){
   header{
-    padding: 25px 25px 5px 25px;
+    padding: 25px 25px 20px 25px;
   }
   .present a img {
     height: 70px;
