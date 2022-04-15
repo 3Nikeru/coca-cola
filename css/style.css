@@ -617,10 +617,11 @@ input[type=checkbox]:checked + label:before {
   }
   .form{
     background-position: 53%;
+    height: auto !important;
   }
   .form_block{
     margin: auto;
-    padding: 123px 30px 0 30px;
+    padding: 123px 30px 20px 30px;
   }
   .form_block h2{
     font-size: 52px;
