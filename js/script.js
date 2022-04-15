@@ -138,6 +138,10 @@ $( document ).ready(function() {
     
                     selectList.slideUp(duration).css({"border-bottom-left-radius": "15px",
                     "border-bottom-right-radius": "15px"});;
+                    setTimeout(function(){
+                        $('.new-select').css({"border-bottom-left-radius": "15px",
+                        "border-bottom-right-radius": "15px"})
+                    }, 450);
                     selectHead.removeClass('on');
                 });
     
@@ -147,11 +151,9 @@ $( document ).ready(function() {
                 setTimeout(function(){
                     $('.new-select').css({"border-bottom-left-radius": "15px",
                     "border-bottom-right-radius": "15px"})
-                }, 500);
+                }, 450);
                 
             }
         });
     });
-    //////////////////////////////////////////////////////////////////////////////
-
 });
