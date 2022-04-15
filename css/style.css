@@ -538,6 +538,12 @@ input[type=checkbox]:checked + label:before {
     width: 1320px;
     height: 1320px;
   }
+  .menu-bar{
+    bottom: 0S;
+  }
+  .all_bar{
+    top: 59px;
+  }
   .content{
     height: 100% !important;
   }
